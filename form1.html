@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 19.10.2020 Собков Данило Вячеславович -->
+    <title>Form</title>
+</head>
+<body>
+<form action="/form" method="POST">
+    <p><label>Логін</label> <input name="first_name" type="text" /></p>
+    <p><label>Пароль</label> <input name="password" type="password" /></p>
+    <p><label>Повторіть пароль</label> <input name="repeat password" type="password" /></p>
+    <label>Cтать</label> <label> <input name="status" type="radio" /> чоловік </label> <label> <input name="status" type="radio" /> жінка </label>
+    <p><label>Вкажіть країну</label><select name="country">
+            <option>Україна</option>
+        </select></p>
+    <p><label>Про себе</label><textarea placeholder="Я..."></textarea></p>
+    <p><button> Відправити </button></p>
+</form>
+<form action="/form2" method="POST">
+    <p><label>Логін</label> <input name="first_name" type="text" /></p>
+    <p><label>Пароль</label> <input name="password" type="password" /></p>
+    <p><label>Повторіть пароль</label> <input name="repeat password" type="password" /></p>
+    <label>Cтать</label> <label> <input name="status" type="radio" /> чоловік </label> <label> <input name="status" type="radio" /> жінка </label>
+    <p><label>Вкажіть місто</label><select name="country">
+            <option>Київ</option>
+            <option>Житомир</option>
+            <option>Львів</option>
+        </select></p>
+    <label>Інтереси</label> <label> <input name="status" type="checkbox" /> футбол </label> <label> <input name="status" type="checkbox" /> шахи </label><label> <input name="status" type="checkbox" /> малювання </label><label> <input name="status" type="checkbox" /> музика</label>
+    <p><button> Відправити </button></p>
+</form>
+</body>
+</html>

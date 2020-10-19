@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 19.10.2020 Собков Данило Вячеславович -->
+    <title>Output</title>
+</head>
+<body>
+<form>
+    <p>
+        <label>Weight Converter</label>
+        <input id="inputKilograms" type="number" placeholder="Kilograms" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+              
+    </p>
+    <p>Pounds: <span id="outputPounds"></span></p>
+    <script>
+        function weightConverter(valNum) {
+            document.getElementById("outputPounds").innerHTML=valNum*2.2046;
+        }
+    </script>
+</form>
+<form onsubmit="return false" oninput="o.value = parseInt(a.value) + parseInt(b.value)">
+    <input name="a" type="number" step="any"> +
+    <input name="b" type="number" step="any"> =
+    <output name="o"></output>
+</form>
+    <form onsubmit="return false" oninput="level.value = flevel.valueAsNumber">
+        <label for="flying"><h2>Сколько вы хотите заработать?</h2>  </label>
+        <input name="flevel" id="flying" type="range" min="0" max="100" value="0">
+        <output for="flying" name="level">0</output>/100
+    </form>
+<form onsubmit="return false" oninput="amount.value = (hours.valueAsNumber * rate.valueAsNumber) + ((hours.valueAsNumber * rate.valueAsNumber) * vat.valueAsNumber)">
+    <p><label for="hours">Number of hours</label>
+        <input type="number" min="0" id="hours" name="hours"></p>
+    <p><label for="rate">Rate</label>
+        <span>£</span><input type="number" min="0" id="rate" name="rate"></p>
+    <p><label for="vat">VAT</label>
+        <input type="number" min="0" id="vat" value="0.30" name="vat"></p>
+    <p>Total: <strong>Грн <output name="amount" for="hours rate vat">0</output></strong></p>
+</form>
+</body>
+</html>
