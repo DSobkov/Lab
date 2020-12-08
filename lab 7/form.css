@@ -1,0 +1,82 @@
+.container {
+    width: 30%;
+    border: 2px solid #cccccc;
+    background-color: #eeeeee;
+    padding: 5px;
+}
+
+.col-name {
+    float: left;
+    text-align: right;
+    width: 25%;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.col-content {
+    float: left;
+    width: 75%;
+    margin-top: 5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input[type=text], input[type=password]{
+    width: 65%;
+    padding: 10px;
+    /*border: 1px solid #ccc;*/
+    resize: vertical;
+}
+
+select {
+    width: 70%;
+    padding: 12px;
+}
+
+textarea {
+    width: 65%;
+    padding: 10px;
+    height: 150px;
+}
+
+label {
+    padding: 12px 2px 0 0;
+    display: inline-block;
+}
+
+.user-info {
+    border: 3px solid #A5AA00;
+    background-color: #FDFFB2;
+}
+
+.password {
+    border: 3px solid #AF007A;
+    background-color: #FDC2EC;
+}
+
+.city {
+    border: 3px solid #24199A;
+    background-color: #BDB8F9;
+}
+
+.about {
+    border: 3px solid #1D981B;
+    background-color: #B8EDB7;
+}
+
+button[type=submit] {
+    font-weight: bold;
+    border: 2px solid #cccccc;
+    background-color: #A3FF9C;
+}
+
+button[type=reset] {
+    font-weight: bold;
+    border: 2px solid #cccccc;
+    background-color: #FF8E95;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <div class="row">
+                <div class="col-name">
+                    <label for="email">E-mail:</label>
+                </div>
+                <div class="col-content">
+                    <input class="user-info" type="text" id="email" name="email">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-name">
+                    <label for="password">Пароль:</label>
+                </div>
+                <div class="col-content">
+                    <input class="password" type="password" id="password" name="password">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-name">
+                    <label for="confirm_password">Повторіть пароль:</label>
+                </div>
+                <div class="col-content">
+                    <input class="password" type="password" id="confirm_password" name="password_confirm">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-name">
+                    <label for="name">Имя:</label>
+                </div>
+                <div class="col-content">
+                    <input class="user-info" type="text" id="name" name="name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-name">
+                    <label for="surname">Фамилия:</label>
+                </div>
+                <div class="col-content">
+                    <input class="user-info" type="text" id="surname" name="name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-name">
+                    <label for="gender">Пол:</label>
+                </div>
+                <div class="col-content">
+                    <label>
+                        <input id="gender" type="checkbox">чоловік
+                        <input type="checkbox">жінка
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-name">
+                    <label for="city">Город:</label>
+                </div>
+                <div class="col-content">
+                    <select class="city" id="city" name="country">
+                        <option>Житомир</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-name">
+                    <label for="about">О себе:</label>
+                </div>
+                <div class="col-content">
+                    <textarea class="about" id="about"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-name">
+                    <label for="agreement">Соглашение:</label>
+                </div>
+                <div class="col-content">
+                    <label>
+                        <input id="agreement" type="checkbox">Получать рассылку сайта <br>
+                        <input type="checkbox">Соглашаюсь с правилами сайта <br>
+                        <input type="checkbox">Скрыть профиль на сайте
+                    </label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-name">
+                </div>
+                <div class="col-content">
+                    <button type="submit">Зарегестрироваться</button>
+                    <button type="reset">Сброс</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

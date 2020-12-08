@@ -1,0 +1,84 @@
+/*div {
+    display: inline-block;
+    margin: 0 0;
+}
+*/
+.google {
+    width: 100px;
+    height: 100px;
+    background: url("Task2/google-plus.png");
+    background-size: 100px 100px;
+    float: left;
+}
+
+.twitter {
+    width: 100px;
+    height: 100px;
+    background: url("Task2/twitter.png");
+    background-size: 100px 100px;
+    float: left;
+}
+
+.gmail {
+    width: 100px;
+    height: 100px;
+    background: url("Task2/gmail.png");
+    background-size: 100px 100px;
+    float: left;
+}
+
+.facebook {
+    width: 100px;
+    height: 100px;
+    background: url("Task2/facebook.png");
+    background-size: 100px 100px;
+    float: left;
+}
+
+.telegram {
+    width: 100px;
+    height: 100px;
+    background: url("Task2/telegram.png");
+    background-size: 100px 100px;
+    float: left;
+}
+
+.linkedin {
+    width: 100px;
+    height: 100px;
+    background: url("Task2/linkedin.png");
+    background-size: 100px 100px;
+    float: left;
+}
+
+.whatsapp {
+    width: 100px;
+    height: 100px;
+    background: url("Task2/whatsapp.png");
+    background-size: 100px 100px;
+    float: left;
+}
+
+.viber {
+    width: 100px;
+    height: 100px;
+    background: url("Task2/viber.png");
+    background-size: 100px 100px;
+    float: left;
+}
+
+.pinterest {
+    width: 100px;
+    height: 100px;
+    background: url("Task2/pinterest.png");
+    background-size: 100px 100px;
+    float: left;
+}
+
+.messenger {
+    width: 100px;
+    height: 100px;
+    background: url("Task2/messenger.png");
+    background-size: 100px 100px;
+    float: left;
+}
