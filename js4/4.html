@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    let continent=["Євразія"," Африка"," Австралія"," Південна Америка"," Північна Америка"],
+        l=[16000,7400,4000,5200,6800];
+
+    document.write(continent[0]+" протяжністю "+l[0]+"км");
+    document.write(continent[1]+" протяжністю "+l[1]+"км");
+    document.write(continent[2]+" протяжністю "+l[2]+"км");
+    document.write(continent[3]+" протяжністю "+l[3]+"км");
+    document.write(continent[4]+" протяжністю "+l[4]+"км");
+
+
+</script>
+
+<script>
+    let fruct = ["апельсин", "банан", "груша"];
+    alert( fruct.length );
+    fruct.unshift('грейпфрут');
+    fruct.push("яблоко");
+    fruct.push("ананас");
+    alert( fruct.length );
+    fruct.pop();
+    fruct.shift();
+    alert( fruct.length );
+</script>
+
+<script>
+    let fruits = ["банан", "мандарин", "манго"];
+    fruits.splice(fruits.length-2, 1, 'ананас');
+    alert( fruits );
+
+</script>
+
+<script>
+    var friends = ["Алексей", "Вячеслав", "Григорий", "Настя", "Павел"];
+    if (friends.length>=3) {
+        alert("это большой массив, в котором как минимум 3 элемента")
+    }else{
+        alert("это маленький массив, в котором менее 3-х элементов")
+    }
+</script>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+</body>
+</html>

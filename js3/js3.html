@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    function task() {
+        var name=prompt("Кто ты?","гость")
+        alert ('Привет,' +name)
+    }
+    task()
+    function task2(a,b) {
+        alert (a*b)
+    }
+    let a=prompt("Первый аргумент:",''),       //повторюваність коду,метод має занадто багато параметрів
+        b=prompt("Второй аргумент:", '');
+    task2(a,b);
+    function task3(str,n) {
+        for (let i = 0; i < n; i++) {
+            t+=str;
+        }
+        alert(t)
+    }
+    let string=prompt("Cтрока",''),
+        n=prompt("количество повторений", 2),
+        t=""
+    task3(string,n);
+    function rgb() {                  //занадто поширене використання глобальних змінних
+        let r=prompt("Red",)
+        g=prompt("Green",)
+        b=prompt("Blue",)
+        alert("rgb("+r+","+g+","+b+")")
+    }
+    rgb();
+
+    function  avg() {
+        let n=prompt("Количество аргументов",''),
+            t=0
+        a=0
+        for (let i = 0; i < n; i++) {
+            a=parseInt(prompt("Число",''));
+            t+=a;
+        }
+        alert(t/n)
+    }
+    avg();
+    function mul2(f,t) {
+        alert (f*t)
+    }
+    function  m2(a,b) {
+
+        alert(mul2(a,b))
+    }
+    let
+        a=prompt("Первый аргумент:",''),
+        b=prompt("Второй аргумент:", '');
+    m2(a,b);
+
+</script>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+</body>
+</html>
